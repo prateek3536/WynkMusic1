@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+display: flex;
+align-items: center;
+list-style-type: none;
+height: 80px;
+background-color: rgba(255, 255, 255, 0.156);
+color: white;
+
+}
+h1{
+    color: red;
+    font-size: 34px;
+}
+nav ul li{
+    padding: 0 12px;
+    font-size: 30px;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.brand img{
+    width: 56px;
+    padding: 0 10px
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.container{
+    min-height: 77vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 96%;
+    border-radius: 25px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+  
+    padding: 34px;
+    
+    
+}
+.bottom{
+    position: sticky;
+    height: 108px;
+    background-color: rgba(255, 255, 255, 0.156);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgessBar{
+    width: 80vw;
+    cursor: pointer;
+}
+songItemcontainer{
+    margin-top: 74px;
+}
+.songItem{
+    height: 98px;
+    display: flex;
+    background-color: white;
+    color: black;
+    /* width: 80%; */
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 85px;
+    margin: 0 23px;
+    border-radius: 12px;
+}
+.songName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
+.timestamp{
+    margin: 0 23px;
+
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw; 
+
+    
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+height: 50px 
+
+}
